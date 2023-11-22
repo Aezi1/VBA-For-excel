@@ -35,4 +35,4 @@ Sub ChangeWordColorInCell(cell As Range, searchText As String, textColor As Long
         pos = InStr(pos + textLen, cellText, searchText, vbTextCompare)
     Wend
 End Sub
-
+'''''''''
